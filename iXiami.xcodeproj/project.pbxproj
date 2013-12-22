@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410DC50917D6C24700FFD610 /* XiamiLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 410DC50817D6C24700FFD610 /* XiamiLogin.m */; };
+		413FBAD517EAA6FA0003A090 /* CoverArtWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 413FBAD417EAA6FA0003A090 /* CoverArtWriter.mm */; };
+		413FBADC17EAA8C10003A090 /* TagLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FBAD817EAA85B0003A090 /* TagLib.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		41876AAB17D04EB00091510D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41876AAA17D04EB00091510D /* Cocoa.framework */; };
+		41876AB517D04EB00091510D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41876AB317D04EB00091510D /* InfoPlist.strings */; };
+		41876AB717D04EB10091510D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41876AB617D04EB10091510D /* main.m */; };
+		41876ABB17D04EB10091510D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 41876AB917D04EB10091510D /* Credits.rtf */; };
+		41876ABE17D04EB10091510D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41876ABD17D04EB10091510D /* AppDelegate.m */; };
+		41876AC117D04EB10091510D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41876ABF17D04EB10091510D /* MainMenu.xib */; };
+		41876ACA17D051310091510D /* MusicData.m in Sources */ = {isa = PBXBuildFile; fileRef = 41876AC917D051310091510D /* MusicData.m */; };
+		41876ACF17D0684A0091510D /* MusicDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 41876ACE17D0684A0091510D /* MusicDataList.m */; };
+		4198B01417D1D71600E29700 /* URLDecodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B01317D1D71600E29700 /* URLDecodeHelper.m */; };
+		4198B01717D1E55B00E29700 /* DownloadList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B01617D1E55B00E29700 /* DownloadList.m */; };
+		4198B01A17D314C700E29700 /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B01917D314C700E29700 /* DownloadItem.m */; };
+		419E63C817D87D0A00D63E45 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419E63C717D87D0A00D63E45 /* ScriptingBridge.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		41EF9CF617EB18C0009F8CCE /* ID3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419E63CB17D87DF000D63E45 /* ID3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410DC50717D6C24700FFD610 /* XiamiLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiamiLogin.h; sourceTree = "<group>"; };
+		410DC50817D6C24700FFD610 /* XiamiLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiamiLogin.m; sourceTree = "<group>"; };
+		413FBAD317EAA6FA0003A090 /* CoverArtWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverArtWriter.h; sourceTree = "<group>"; };
+		413FBAD417EAA6FA0003A090 /* CoverArtWriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoverArtWriter.mm; sourceTree = "<group>"; };
+		413FBAD717EAA85B0003A090 /* TagLib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TagLib.bundle; sourceTree = "<group>"; };
+		413FBAD817EAA85B0003A090 /* TagLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TagLib.framework; sourceTree = "<group>"; };
+		41876AA717D04EB00091510D /* iXiami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iXiami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41876AAA17D04EB00091510D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		41876AAD17D04EB00091510D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		41876AAE17D04EB00091510D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		41876AAF17D04EB00091510D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41876AB217D04EB00091510D /* iXiami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iXiami-Info.plist"; sourceTree = "<group>"; };
+		41876AB417D04EB00091510D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41876AB617D04EB10091510D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41876AB817D04EB10091510D /* iXiami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iXiami-Prefix.pch"; sourceTree = "<group>"; };
+		41876ABA17D04EB10091510D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		41876ABC17D04EB10091510D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41876ABD17D04EB10091510D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41876AC017D04EB10091510D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		41876AC817D051310091510D /* MusicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicData.h; sourceTree = "<group>"; };
+		41876AC917D051310091510D /* MusicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicData.m; sourceTree = "<group>"; };
+		41876ACD17D0684A0091510D /* MusicDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataList.h; sourceTree = "<group>"; };
+		41876ACE17D0684A0091510D /* MusicDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataList.m; sourceTree = "<group>"; };
+		4198B01217D1D71600E29700 /* URLDecodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLDecodeHelper.h; sourceTree = "<group>"; };
+		4198B01317D1D71600E29700 /* URLDecodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLDecodeHelper.m; sourceTree = "<group>"; };
+		4198B01517D1E55B00E29700 /* DownloadList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadList.h; sourceTree = "<group>"; };
+		4198B01617D1E55B00E29700 /* DownloadList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadList.m; sourceTree = "<group>"; };
+		4198B01817D314C700E29700 /* DownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItem.h; sourceTree = "<group>"; };
+		4198B01917D314C700E29700 /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItem.m; sourceTree = "<group>"; };
+		419E63C717D87D0A00D63E45 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		419E63CB17D87DF000D63E45 /* ID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ID3.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41876AA417D04EB00091510D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF9CF617EB18C0009F8CCE /* ID3.framework in Frameworks */,
+				413FBADC17EAA8C10003A090 /* TagLib.framework in Frameworks */,
+				419E63C817D87D0A00D63E45 /* ScriptingBridge.framework in Frameworks */,
+				41876AAB17D04EB00091510D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41876A9E17D04EB00091510D = {
+			isa = PBXGroup;
+			children = (
+				41876AB017D04EB00091510D /* iXiami */,
+				41876AA917D04EB00091510D /* Frameworks */,
+				41876AA817D04EB00091510D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41876AA817D04EB00091510D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41876AA717D04EB00091510D /* iXiami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41876AA917D04EB00091510D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413FBAD717EAA85B0003A090 /* TagLib.bundle */,
+				413FBAD817EAA85B0003A090 /* TagLib.framework */,
+				419E63CB17D87DF000D63E45 /* ID3.framework */,
+				419E63C717D87D0A00D63E45 /* ScriptingBridge.framework */,
+				41876AAA17D04EB00091510D /* Cocoa.framework */,
+				41876AAC17D04EB00091510D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41876AAC17D04EB00091510D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41876AAD17D04EB00091510D /* AppKit.framework */,
+				41876AAE17D04EB00091510D /* CoreData.framework */,
+				41876AAF17D04EB00091510D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		41876AB017D04EB00091510D /* iXiami */ = {
+			isa = PBXGroup;
+			children = (
+				4198B01117D1D70400E29700 /* Helpers */,
+				41876ACC17D066040091510D /* Controllers */,
+				41876AC717D0511F0091510D /* Models */,
+				41876ABF17D04EB10091510D /* MainMenu.xib */,
+				41876AB117D04EB00091510D /* Supporting Files */,
+			);
+			path = iXiami;
+			sourceTree = "<group>";
+		};
+		41876AB117D04EB00091510D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41876AB217D04EB00091510D /* iXiami-Info.plist */,
+				41876AB317D04EB00091510D /* InfoPlist.strings */,
+				41876AB617D04EB10091510D /* main.m */,
+				41876AB817D04EB10091510D /* iXiami-Prefix.pch */,
+				41876AB917D04EB10091510D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41876AC717D0511F0091510D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4198B01817D314C700E29700 /* DownloadItem.h */,
+				4198B01917D314C700E29700 /* DownloadItem.m */,
+				4198B01517D1E55B00E29700 /* DownloadList.h */,
+				4198B01617D1E55B00E29700 /* DownloadList.m */,
+				41876ACD17D0684A0091510D /* MusicDataList.h */,
+				41876ACE17D0684A0091510D /* MusicDataList.m */,
+				41876AC817D051310091510D /* MusicData.h */,
+				41876AC917D051310091510D /* MusicData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		41876ACC17D066040091510D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41876ABC17D04EB10091510D /* AppDelegate.h */,
+				41876ABD17D04EB10091510D /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4198B01117D1D70400E29700 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				410DC50717D6C24700FFD610 /* XiamiLogin.h */,
+				410DC50817D6C24700FFD610 /* XiamiLogin.m */,
+				4198B01217D1D71600E29700 /* URLDecodeHelper.h */,
+				4198B01317D1D71600E29700 /* URLDecodeHelper.m */,
+				413FBAD317EAA6FA0003A090 /* CoverArtWriter.h */,
+				413FBAD417EAA6FA0003A090 /* CoverArtWriter.mm */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41876AA617D04EB00091510D /* iXiami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41876AC417D04EB10091510D /* Build configuration list for PBXNativeTarget "iXiami" */;
+			buildPhases = (
+				41876AA317D04EB00091510D /* Sources */,
+				41876AA417D04EB00091510D /* Frameworks */,
+				41876AA517D04EB00091510D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iXiami;
+			productName = iXiami;
+			productReference = 41876AA717D04EB00091510D /* iXiami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41876A9F17D04EB00091510D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "祝 嘉栋";
+			};
+			buildConfigurationList = 41876AA217D04EB00091510D /* Build configuration list for PBXProject "iXiami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41876A9E17D04EB00091510D;
+			productRefGroup = 41876AA817D04EB00091510D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41876AA617D04EB00091510D /* iXiami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41876AA517D04EB00091510D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41876AB517D04EB00091510D /* InfoPlist.strings in Resources */,
+				41876ABB17D04EB10091510D /* Credits.rtf in Resources */,
+				41876AC117D04EB10091510D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41876AA317D04EB00091510D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41876AB717D04EB10091510D /* main.m in Sources */,
+				41876ABE17D04EB10091510D /* AppDelegate.m in Sources */,
+				41876ACA17D051310091510D /* MusicData.m in Sources */,
+				41876ACF17D0684A0091510D /* MusicDataList.m in Sources */,
+				4198B01417D1D71600E29700 /* URLDecodeHelper.m in Sources */,
+				4198B01717D1E55B00E29700 /* DownloadList.m in Sources */,
+				4198B01A17D314C700E29700 /* DownloadItem.m in Sources */,
+				410DC50917D6C24700FFD610 /* XiamiLogin.m in Sources */,
+				413FBAD517EAA6FA0003A090 /* CoverArtWriter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41876AB317D04EB00091510D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41876AB417D04EB00091510D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41876AB917D04EB10091510D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41876ABA17D04EB10091510D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		41876ABF17D04EB10091510D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41876AC017D04EB10091510D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41876AC217D04EB10091510D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41876AC317D04EB10091510D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41876AC517D04EB10091510D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/EdwardZhu/Documents/projects/iXiami,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXiami/iXiami-Prefix.pch";
+				INFOPLIST_FILE = "iXiami/iXiami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41876AC617D04EB10091510D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/EdwardZhu/Documents/projects/iXiami,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXiami/iXiami-Prefix.pch";
+				INFOPLIST_FILE = "iXiami/iXiami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41876AA217D04EB00091510D /* Build configuration list for PBXProject "iXiami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41876AC217D04EB10091510D /* Debug */,
+				41876AC317D04EB10091510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41876AC417D04EB10091510D /* Build configuration list for PBXNativeTarget "iXiami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41876AC517D04EB10091510D /* Debug */,
+				41876AC617D04EB10091510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41876A9F17D04EB00091510D /* Project object */;
+}
